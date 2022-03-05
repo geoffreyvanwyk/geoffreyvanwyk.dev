@@ -1,3 +1,5 @@
+import tailwindTypography from '@tailwindcss/typography'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -32,6 +34,16 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    // TODO: Remove this function when tailwindcss-module adds support to v3
+    function () {
+      this.nuxt.hook('tailwindcss:config', (config) => {
+        // Move the legacy purge content array to the the new property
+        // https://tailwindcss.com/docs/upgrade-guide#configure-content-sources
+        config.content = config.purge.content
+        // Remove legacy purge option to disable the warning
+        config.purge = undefined
+      })
+    },
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -45,4 +57,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+  tailwindcss: {
+    config: {
+      plugins: [tailwindTypography],
+    },
+  },
 }
