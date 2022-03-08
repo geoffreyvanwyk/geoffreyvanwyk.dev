@@ -1,8 +1,9 @@
 <template>
-  <div>
-    <app-bar></app-bar>
+  <PageWrapper>
+    <AppBar />
+
     <article
-      class="prose prose-lg prose-h1:mb-2 prose-img:rounded-b prose-code:text-xs mx-auto"
+      class="prose prose-lg prose-h1:mb-2 prose-img:rounded prose-code:text-xs mx-auto"
     >
       <img :src="article.img" :alt="article.alt" />
 
@@ -18,16 +19,20 @@
 
       <nuxt-content :document="article" />
     </article>
-  </div>
+
+    <FooterBar />
+  </PageWrapper>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
+
 import AppBar from '~/components/AppBar.vue'
+import FooterBar from '~/components/FooterBar.vue'
 import TagList from '~/components/TagList.vue'
 
 export default Vue.extend({
-  components: { AppBar, TagList },
+  components: { AppBar, FooterBar, TagList },
   async asyncData({ $content, params }) {
     const article = await $content('articles', params.slug).fetch()
 

@@ -1,6 +1,6 @@
 <template>
   <nav class="bg-gray-700 mb-2 p-4">
-    <branding-figure></branding-figure>
+    <BrandingFigure />
   </nav>
 </template>
 
