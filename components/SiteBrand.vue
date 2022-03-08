@@ -8,7 +8,7 @@
       />
     </NuxtLink>
     <figcaption
-      class="pl-4 flex flex-col items-start justify-center font-semibold text-white"
+      class="flex flex-col items-start justify-center pl-4 font-semibold text-white"
     >
       <NuxtLink to="/"> Geoffrey van Wyk </NuxtLink>
       <div class="text-gray-400">Computer Programmer</div>
@@ -18,6 +18,5 @@
 
 <script lang="ts">
 import Vue from 'vue'
-
 export default Vue.extend({})
 </script>

@@ -1,9 +1,7 @@
 <template>
-  <div class="w-full h-full">
-    <PrimaryMenuRegion />
-    <Nuxt />
-    <FooterRegion />
-  </div>
+  <nav class="p-4 mb-2 bg-gray-700">
+    <SiteBrand />
+  </nav>
 </template>
 
 <script lang="ts">

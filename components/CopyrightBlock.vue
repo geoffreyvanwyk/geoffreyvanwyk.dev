@@ -1,10 +1,10 @@
 <template>
-  <nav :class="this.navClasses" ref="nav">
+  <div>
     <span class="font-semibold text-gray-400">Copyright</span>
     <span class="text-lg font-semibold text-gray-400">&copy;</span>
     <span class="font-semibold text-white">{{ this.currentYear }}</span>
     <span class="font-semibold text-white">Geoffrey van Wyk</span>
-  </nav>
+  </div>
 </template>
 
 <script lang="ts">
@@ -16,14 +16,6 @@ export default Vue.extend({
         year: 'numeric',
       } as Intl.DateTimeFormatOptions),
       navClasses: ['bg-gray-700', 'p-4', 'mt-2', 'w-full'],
-    }
-  },
-  mounted() {
-    const nav = this.$refs.nav as HTMLElement
-    const heightOfAppBar = 96
-    const shouldBeFixed = window.innerHeight - nav.offsetTop > heightOfAppBar
-    if (shouldBeFixed) {
-      this.navClasses = this.navClasses.concat(['fixed', 'bottom-0'])
     }
   },
 })
