@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-gray-700 mb-2 p-4">
+  <nav class="p-4 mb-2 bg-gray-700">
     <BrandingFigure />
   </nav>
 </template>
