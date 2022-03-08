@@ -1,4 +1,5 @@
 import tailwindTypography from '@tailwindcss/typography'
+const tailwindHeroPatterns = require('tailwindcss-hero-patterns')
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -9,6 +10,9 @@ export default {
     title: 'my-blog',
     htmlAttrs: {
       lang: 'en',
+    },
+    bodyAttrs: {
+      class: 'bg-repeat heropattern-circuitboard-gray-400',
     },
     meta: [
       { charset: 'utf-8' },
@@ -59,7 +63,7 @@ export default {
   build: {},
   tailwindcss: {
     config: {
-      plugins: [tailwindTypography],
+      plugins: [tailwindTypography, tailwindHeroPatterns],
     },
   },
 }

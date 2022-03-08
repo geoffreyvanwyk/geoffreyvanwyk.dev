@@ -1,9 +1,9 @@
 <template>
   <nav :class="this.navClasses" ref="nav">
-    <span class="text-gray-400 font-semibold">Copyright</span>
-    <span class="text-gray-400 text-lg font-semibold">&copy;</span>
-    <span class="text-white font-semibold">{{ this.currentYear }}</span>
-    <span class="text-white font-semibold">Geoffrey van Wyk</span>
+    <span class="font-semibold text-gray-400">Copyright</span>
+    <span class="text-lg font-semibold text-gray-400">&copy;</span>
+    <span class="font-semibold text-white">{{ this.currentYear }}</span>
+    <span class="font-semibold text-white">Geoffrey van Wyk</span>
   </nav>
 </template>
 
@@ -15,7 +15,7 @@ export default Vue.extend({
       currentYear: new Date().toLocaleDateString('en-za', {
         year: 'numeric',
       } as Intl.DateTimeFormatOptions),
-      navClasses: ['bg-gray-700', 'p-4', 'w-full'],
+      navClasses: ['bg-gray-700', 'p-4', 'mt-2', 'w-full'],
     }
   },
   mounted() {

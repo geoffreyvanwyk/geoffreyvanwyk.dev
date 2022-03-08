@@ -1,19 +1,19 @@
-<template>
-  <PageWrapper>
-    <AppBar />
-    <FooterBar />
-  </PageWrapper>
-</template>
+<template></template>
 
 <script lang="ts">
 import Vue from 'vue'
 
-import AppBar from '~/components/AppBar.vue'
-import FooterBar from '~/components/FooterBar.vue'
-import PageWrapper from '~/components/PageWrapper.vue'
-
 export default Vue.extend({
-  components: { AppBar, FooterBar, PageWrapper },
   name: 'IndexPage',
+  async asyncData({ $content }) {
+    const posts = await $content('articles')
+      .only(['title', 'description', 'img', 'tags', 'slug'])
+      .sortBy('createdAt', 'desc')
+      .fetch()
+
+    return {
+      posts,
+    }
+  },
 })
 </script>

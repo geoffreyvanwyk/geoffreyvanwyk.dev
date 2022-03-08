@@ -1,11 +1,12 @@
 <template>
-  <div class="h-full w-full bg-repeat heropattern-circuitboard-gray-400">
-    <slot></slot>
+  <div class="w-full h-full">
+    <AppBar />
+    <Nuxt />
+    <FooterBar />
   </div>
 </template>
 
 <script lang="ts">
 import Vue from 'vue'
-
 export default Vue.extend({})
 </script>
