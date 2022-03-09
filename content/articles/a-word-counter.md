@@ -2,13 +2,15 @@
 title: A Word Counter | Introduction
 description: How to replicate the GNU wc (word counter) commandline utility programme using the Oclif commandline framework
 author: Geoffrey van Wyk
-img: ../word-tiles.jpg
-alt: pile of word tiles
+image:
+  src: ../word-tiles.jpg
+  alt: pile of word tiles
 tags:
   - tutorial
   - series
-  - computer programming
   - commandline
+  - computer
+  - programming
   - typescript
   - oclif
 ---

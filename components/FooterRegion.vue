@@ -12,13 +12,5 @@ export default Vue.extend({
       navClasses: ['bg-gray-700', 'p-4', 'mt-2', 'w-full'],
     }
   },
-  mounted() {
-    const nav = this.$refs.nav as HTMLElement
-    const heightOfAppBar = 96
-    const shouldBeFixed = window.innerHeight - nav.offsetTop > heightOfAppBar
-    if (shouldBeFixed) {
-      this.navClasses = this.navClasses.concat(['fixed', 'bottom-0'])
-    }
-  },
 })
 </script>

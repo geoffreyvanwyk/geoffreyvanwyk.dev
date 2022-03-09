@@ -2,17 +2,23 @@
   <article
     class="mx-auto prose prose-lg bg-white shadow-lg prose-gray-400 prose-h1:mb-2 prose-code:text-xs"
   >
-    <img class="w-full prose-none" :src="article.img" :alt="article.alt" />
+    <img
+      class="object-cover w-full mb-0 h-36 prose-none"
+      :src="article.image.src"
+      :alt="article.image.alt"
+    />
 
     <div class="px-4 pb-2">
-      <p class="text-sm uppercase">
-        {{ formatDate(article.updatedAt) }}
-        <span class="italic lowercase">by</span>
-        {{ article.author }}
-      </p>
+      <TagList :tags="article.tags" />
 
-      <h1>{{ article.title }}</h1>
-      <tag-list :tags="article.tags" />
+      <h1 class="text-gray-800">{{ article.title }}</h1>
+
+      <span class="text-sm uppercase">
+        {{ formatDate(article.updatedAt) }}
+      </span>
+      <span class="text-sm italic lowercase">by</span>
+      <span class="text-sm uppercase">{{ article.author }}</span>
+
       <p class="lead">{{ article.description }}</p>
 
       <nuxt-content :document="article" />

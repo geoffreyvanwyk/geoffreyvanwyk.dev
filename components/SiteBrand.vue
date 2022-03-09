@@ -4,13 +4,15 @@
       <img
         src="~/assets/geoffreyvanwyk.jpg"
         alt="Profile photo of Geoffrey van Wyk"
-        class="w-16 h-16 rounded-full ring-4 ring-white"
+        class="w-16 h-16 rounded-full ring-4 ring-gray-200"
       />
     </NuxtLink>
     <figcaption
-      class="flex flex-col items-start justify-center pl-4 font-semibold text-white"
+      class="flex flex-col items-start justify-center pl-4 font-semibold"
     >
-      <NuxtLink to="/"> Geoffrey van Wyk </NuxtLink>
+      <NuxtLink to="/">
+        <div class="text-gray-100">Geoffrey van Wyk</div>
+      </NuxtLink>
       <div class="text-gray-400">Computer Programmer</div>
     </figcaption>
   </figure>

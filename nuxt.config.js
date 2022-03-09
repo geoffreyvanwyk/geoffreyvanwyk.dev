@@ -7,7 +7,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'my-blog',
+    title: 'Geoffrey van Wyk',
     htmlAttrs: {
       lang: 'en',
     },

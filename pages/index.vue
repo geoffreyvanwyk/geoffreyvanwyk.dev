@@ -1,4 +1,12 @@
-<template></template>
+<template>
+  <div class="flex">
+    <ArticleTeaser
+      v-for="article in this.articles"
+      :key="article.slug"
+      :article="article"
+    />
+  </div>
+</template>
 
 <script lang="ts">
 import Vue from 'vue'
@@ -6,14 +14,21 @@ import Vue from 'vue'
 export default Vue.extend({
   name: 'IndexPage',
   async asyncData({ $content }) {
-    const posts = await $content('articles')
-      .only(['title', 'description', 'img', 'tags', 'slug'])
+    const articles = await $content('articles')
+      .only([
+        'slug',
+        'author',
+        'title',
+        'description',
+        'image',
+        'tags',
+        'createdAt',
+        'updatedAt',
+      ])
       .sortBy('createdAt', 'desc')
       .fetch()
 
-    return {
-      posts,
-    }
+    return { articles }
   },
 })
 </script>
