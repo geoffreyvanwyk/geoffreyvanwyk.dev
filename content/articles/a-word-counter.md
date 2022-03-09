@@ -19,11 +19,11 @@ After having learned a programming language—such as [TypeScript](https://www.t
 
 When building a commandline programme, there are many aspects to consider before even starting on the business logic, such as how to:
 
-* parse the arguments and options supplied to the command,
-* build a multicommand program,
-* format output,
-* programmatically test the command,
-* document the command's usage.
+- parse the arguments and options supplied to the command,
+- build a multicommand program,
+- format output,
+- programmatically test the command,
+- document the command's usage.
 
 The purpose of a commandline framework—such as [Oclif](https://oclif.io)—is to solve all these issues for the programmer. Some programmers feel that they want to have a fundamental understanding, which means building the application from scratch. But, by using a framework, they can benefit from the experience of others and achieve their goal of a full-fledged programme in the newly-learned programming language much faster.
 
@@ -56,7 +56,7 @@ the following order: newline, word, character, byte, maximum line length.
       --version          output version information and exit
 ```
 
- The `wc` command can be used to count how many lines, words, bytes or characters a file contains. It has two forms of usage as shown at the top of the help screen. The forms of usage are distinguished from each other by the combination of options and arguments that can be used together. For the sake of simplicity, this tutorial only deals with the first form.
+The `wc` command can be used to count how many lines, words, bytes or characters a file contains. It has two forms of usage as shown at the top of the help screen. The forms of usage are distinguished from each other by the combination of options and arguments that can be used together. For the sake of simplicity, this tutorial only deals with the first form.
 
 In the usage form `wc [OPTION]... [FILE]...`, the brackets mean the option or argument (in this case FILE) does not have to be supplied. The ellipsis `...` means more than one option or argument can be supplied. The `FILE` argument must be the file system path to the file. For the sake of simplicity, this tutorial assumes at least one FILE argument is required.
 
