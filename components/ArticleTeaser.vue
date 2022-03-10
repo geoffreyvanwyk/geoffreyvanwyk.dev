@@ -11,7 +11,7 @@
     </NuxtLink>
 
     <div class="px-4 pb-2">
-      <TagList :tags="article.tags.slice(0, 3)" />
+      <TagList :tags="article.tags" />
 
       <NuxtLink :to="`/articles/${article.slug}`" class="no-underline">
         <h3 class="my-1">{{ article.title }}</h3>
