@@ -1,5 +1,7 @@
 <template>
-  <article class="w-1/4 prose-sm prose bg-white shadow-lg prose-gray-400">
+  <article
+    class="sm:w-1/2 xl:w-1/4 prose-sm prose bg-white shadow-lg prose-gray-400"
+  >
     <NuxtLink :to="`/articles/${article.slug}`">
       <img
         class="object-cover w-full h-32 mt-0 mb-1 prose-none"
