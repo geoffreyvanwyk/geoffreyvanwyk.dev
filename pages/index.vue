@@ -15,16 +15,7 @@ export default Vue.extend({
   name: 'IndexPage',
   async asyncData({ $content }) {
     const articles = await $content('articles')
-      .only([
-        'slug',
-        'author',
-        'title',
-        'description',
-        'image',
-        'tags',
-        'createdAt',
-        'updatedAt',
-      ])
+      .where({ published: true })
       .sortBy('createdAt', 'desc')
       .fetch()
 

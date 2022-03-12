@@ -13,6 +13,7 @@ tags:
   - programming
   - typescript
   - oclif
+published: true
 ---
 
 After having learned a programming language—such as [TypeScript](https://www.typescriptlang.org)—the computer programmer is ready to build a full-fledged programme in that language. Of the various platforms on which to build a programme, the commandline is the simplest, because its user interface is much simpler than graphical and web interfaces. Most of the programmer's time is spent on the business logic of turning inputs into outputs, instead of cumbersome user interface details.
