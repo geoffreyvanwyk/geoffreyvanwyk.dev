@@ -9,6 +9,21 @@
     />
 
     <div class="px-4 pb-2">
+      <div class="mb-1">
+        <span class="text-xs italic">Photo by</span>
+        <span class="text-xs uppercase">
+          <a :href="article.image.creator.link">{{
+            article.image.creator.name
+          }}</a>
+        </span>
+        <span class="text-xs italic">on</span>
+        <span class="text-xs uppercase">
+          <a :href="article.image.publisher.link">{{
+            article.image.publisher.name
+          }}</a>
+        </span>
+      </div>
+
       <TagList :tags="article.tags" />
 
       <h1 class="text-gray-800">{{ article.title }}</h1>

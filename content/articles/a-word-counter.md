@@ -5,6 +5,12 @@ author: Geoffrey van Wyk
 image:
   src: ../word-tiles.jpg
   alt: pile of word tiles
+  creator:
+    name: Glen Carrie
+    link: https://unsplash.com/@glencarrie
+  publisher:
+    name: Unsplash
+    link: https://unsplash.com
 tags:
   - tutorial
   - series
