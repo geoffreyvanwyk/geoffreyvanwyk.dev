@@ -18,7 +18,7 @@
       </NuxtLink>
 
       <span class="text-xs uppercase">
-        {{ formatDate(article.updatedAt) }}
+        {{ formatDate(article.createdAt) }}
       </span>
       <span class="text-xs italic lowercase">by</span>
       <span class="text-xs uppercase">{{ article.author }}</span>

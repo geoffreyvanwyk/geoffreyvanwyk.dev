@@ -14,7 +14,7 @@
       <h1 class="text-gray-800">{{ article.title }}</h1>
 
       <span class="text-sm uppercase">
-        {{ formatDate(article.updatedAt) }}
+        {{ formatDate(article.createdAt) }}
       </span>
       <span class="text-sm italic lowercase">by</span>
       <span class="text-sm uppercase">{{ article.author }}</span>
