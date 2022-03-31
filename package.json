@@ -32,6 +32,7 @@
     "@tailwindcss/typography": "^0.5.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.4",
+    "nuxt-content-git": "^2.0.14",
     "postcss": "^8.4.4",
     "prettier": "^2.5.1",
     "push-dir": "^0.4.1",
