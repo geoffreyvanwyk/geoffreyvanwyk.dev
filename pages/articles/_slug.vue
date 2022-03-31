@@ -2,28 +2,9 @@
   <article
     class="mx-auto prose prose-lg bg-white shadow-lg prose-gray-400 prose-h1:mb-2 prose-code:text-xs"
   >
-    <img
-      class="object-cover w-full mb-0 h-36 prose-none"
-      :src="article.image.src"
-      :alt="article.image.alt"
-    />
+    <ArticleImage :article="article" />
 
     <div class="px-4 pb-2">
-      <div class="mb-1">
-        <span class="text-xs italic">Photo by</span>
-        <span class="text-xs uppercase">
-          <a :href="article.image.creator.link">{{
-            article.image.creator.name
-          }}</a>
-        </span>
-        <span class="text-xs italic">on</span>
-        <span class="text-xs uppercase">
-          <a :href="article.image.publisher.link">{{
-            article.image.publisher.name
-          }}</a>
-        </span>
-      </div>
-
       <TagList :tags="article.tags" />
 
       <h1 class="text-gray-800">{{ article.title }}</h1>

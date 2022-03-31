@@ -1,0 +1,35 @@
+<template>
+  <div class="relative">
+    <img
+      class="object-cover w-full mb-0 h-96 prose-none"
+      :src="article.image.src"
+      :alt="article.image.alt"
+    />
+
+    <div
+      class="absolute bottom-0 right-0 px-2 mb-1 bg-gray-200 rounded-l-full opacity-80"
+    >
+      <span class="text-xs italic">Photo by</span>
+      <span class="text-xs uppercase">
+        <a :href="article.image.creator.link" target="_blank">{{
+          article.image.creator.name
+        }}</a>
+      </span>
+      <span class="text-xs italic">on</span>
+      <span class="text-xs uppercase">
+        <a :href="article.image.publisher.link" target="_blank">{{
+          article.image.publisher.name
+        }}</a>
+      </span>
+    </div>
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue'
+export default Vue.extend({
+  props: {
+    article: Object,
+  },
+})
+</script>
