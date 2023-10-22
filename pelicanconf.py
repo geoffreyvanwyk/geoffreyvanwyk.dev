@@ -1,13 +1,14 @@
-AUTHOR = "Geoffrey Bernardo van Wyk"
 SITENAME = "Geoffrey van Wyk"
+SITESUBTITLE = "Computer Programmer"
 SITEURL = ""
+AUTHOR = "Geoffrey Bernardo van Wyk"
 
 PATH = "content"
 THEME = "windy"
-
 TIMEZONE = "Africa/Johannesburg"
-
 DEFAULT_LANG = "en"
+
+MENUITEMS = [("Home", "/")]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
