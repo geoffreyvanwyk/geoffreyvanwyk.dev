@@ -3,12 +3,15 @@ SITESUBTITLE = "Computer Programmer"
 SITEURL = ""
 AUTHOR = "Geoffrey Bernardo van Wyk"
 
-PATH = "content"
-THEME = "windy"
-TIMEZONE = "Africa/Johannesburg"
 DEFAULT_LANG = "en"
+TIMEZONE = "Africa/Johannesburg"
 
+PATH = "content"
+
+THEME = "windy"
 MENUITEMS = [("Home", "/")]
+DISPLAY_PAGES_ON_MENU = True
+DEFAULT_PAGINATION = 10
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -31,7 +34,6 @@ SOCIAL = (
     ("Another social link", "#"),
 )
 
-DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
