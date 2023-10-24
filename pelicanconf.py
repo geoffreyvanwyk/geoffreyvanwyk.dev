@@ -7,6 +7,15 @@ DEFAULT_LANG = "en"
 TIMEZONE = "Africa/Johannesburg"
 
 PATH = "content"
+MARKDOWN = {
+    "extension_configs": {
+        "markdown.extensions.codehilite": {"css_class": "highlight"},
+        "markdown.extensions.extra": {},
+        "markdown.extensions.meta": {},
+        "markdown.extensions.toc": {},
+    },
+    "output_format": "html5",
+}
 
 THEME = "windy"
 MENUITEMS = [("Home", "/")]
@@ -24,7 +33,7 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-LINKS = [
+PAGE_SIDEBAR_LINKS = [
     {
         "page": "About",
         "image": "https://m.media-amazon.com/images/I/31F7DqnXj2L._SX342_SY445_.jpg",
