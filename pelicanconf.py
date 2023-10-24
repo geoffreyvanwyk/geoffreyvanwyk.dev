@@ -16,6 +16,8 @@ MARKDOWN = {
     },
     "output_format": "html5",
 }
+STATIC_PATHS = ["images", "extra"]
+EXTRA_PATH_METADATA = {"extra/favicon.ico": {"path": "favicon.ico"}}
 
 THEME = "windy"
 MENUITEMS = [("Home", "/")]
