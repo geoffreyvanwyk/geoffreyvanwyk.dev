@@ -54,10 +54,16 @@
     {% include "partials/main_navigation.html" %}
   </nav>
 
-  <main class="flew-grow p-4 w-full">
-    {% block content %}
-    {% endblock %}
-  </main>
+  <div class="grid grid-cols-2">
+    <main class="flew-grow p-4 w-full">
+      {% block content %}
+      {% endblock %}
+    </main>
+    <aside class="mx-auto flex flex-col justify-evenly p-4">
+      {% block sidebar %}
+      {% endblock %}
+    </aside>
+  </div>
 
   <footer class="bg-gray-700 p-4 mt-2 w-full">
     {% include "partials/copyright.html" %}
