@@ -48,20 +48,18 @@
   {% endblock head %}
 </head>
 
-<body>
+<body class="w-full h-screen flex flex-col">
   <nav class="flex items-center justify-between p-4 mb-2 bg-gray-700">
     {% include "partials/site_brand.html" %}
     {% include "partials/main_navigation.html" %}
   </nav>
-  <main>
+
+  <main class="flew-grow px-4 w-full">
     {% block content %}
     {% endblock %}
   </main>
-  <footer>
-    <address id="about" class="vcard body">
-      Proudly powered by <a href="https://getpelican.com/">Pelican</a>,
-      which takes great advantage of <a href="https://www.python.org/">Python</a>.
-    </address><!-- /#about -->
+  <footer class="bg-gray-700 p-4 mt-2 w-full">
+    {% include "partials/copyright.html" %}
   </footer>
 </body>
 
