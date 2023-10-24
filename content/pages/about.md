@@ -38,19 +38,26 @@ On this website I:
 * Keep a portfolio of my projects.
 * Link to my accounts on other services like GitHub.
 
-As a reward for maintaining the website, in the right-hand sidebar of page, I add links to products or services that are relevant to the content of the page for which I might receive a commision. As an Amazon Associate I earn from qualifying purchases.
+As a reward for maintaining the website, in the right-hand sidebar of page, I add links to products or services that are relevant to the content of the page for which I might receive a commision. As an [Amazon Associate][13] I earn from qualifying purchases.
 
-[1]:    https://php.net
-[2]:    https://moodle.org
+This website is built using the [Pelican][14] static site generator, styled using [Tailwind CSS][15], deployed using [GitHub Actions][16] and hosted for free on [GitHub Pages][17].
+
+[1]:    https://php.net/
+[2]:    https://moodle.org/
 [3]:    https://en.wikipedia.org/wiki/Northern_Cape
 [4]:    https://fortran-lang.org/
 [5]:    https://en.wikipedia.org/wiki/Mass_balance
 [6]:    https://learn.microsoft.com/en-us/office/vba/api/overview/
 [7]:    https://sourceforge.net/projects/timepiece/
 [8]:    https://learn.microsoft.com/en-us/dotnet/visual-basic/
-[9]:    https://joelonsoftware.com
+[9]:    https://joelonsoftware.com/
 [10]:   https://blog.codinghorror.com/
 [11]:   https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362/ref=sr_1_1?crid=1DSQY95MZ95AP&amp;keywords=think+python+3rd+edition&amp;qid=1698147094&amp;sprefix=think+python+%252Caps%252C348&amp;sr=8-1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=ead7d652290feaa0567a068e957cbb0a&camp=1789&creative=9325
-[12]:   https://wordofthehour.net
+[12]:   https://wordofthehour.net/
+[13]:   https://affiliate-program.amazon.com/
+[14]:   https://getpelican.com/
+[15]:   https://tailwindcss.com/
+[16]:   https://github.com/features/actions/
+[17]:   https://pages.github.com/
 
 *[VB6]: Visual Basic 6
