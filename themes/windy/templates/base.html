@@ -48,7 +48,7 @@
   {% endblock head %}
 </head>
 
-<body class="w-full h-screen flex flex-col">
+<body class="w-full h-screen flex flex-col justify-between">
   <nav class="flex items-center justify-between p-4 mb-2 bg-gray-700">
     {% include "partials/site_brand.html" %}
     {% include "partials/main_navigation.html" %}
@@ -58,6 +58,7 @@
     {% block content %}
     {% endblock %}
   </main>
+
   <footer class="bg-gray-700 p-4 mt-2 w-full">
     {% include "partials/copyright.html" %}
   </footer>
