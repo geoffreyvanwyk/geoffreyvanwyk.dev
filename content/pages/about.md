@@ -2,9 +2,11 @@
 Title: About
 ---
 
-I am a professional computer programmer having worked mostly with [PHP][1], and over the last number of years with [Moodle][2]. I work remotely from a small town in the [Northern Cape][3] of South Africa.
+[TOC]
 
-## How I got Started in Computer Programming
+## About Me
+
+I am a professional computer programmer having worked mostly with [PHP][1], and over the last number of years with [Moodle][2]. I work remotely from a small town in the [Northern Cape][3] of South Africa.
 
 My first introduction to computer programming was in the form of [Fortran][4] in a first-year second-semester module at the University of Stellenbosh in the 1990s. Computer programming was only one half of the module; the other half was dedicated to [mass balances][5] in chemical engineering.
 
@@ -27,6 +29,16 @@ Seeking to learn more about computer science, I read the book Think like a Compu
 However, I was sidetracked into learning PHP when a Christain brother who built [Word of the Hour][12] asked me to write a script for importing articles. PHP became my main focus and I decided that it was time to make computer programming my full time career.
 
 After a failed attempt at started an online business for advertising cars, I eventually landed my first job as a software developer at on online fashion store called Spree.
+
+## About this Website
+
+On this website I:
+
+* Write blog posts about my adventures in computer programming as well as my other interests like chess and playing the saxophone.
+* Keep a portfolio of my projects.
+* Link to my accounts on other services like GitHub.
+
+As a reward for maintaining the website, in the right-hand sidebar of page, I add links to products or services that are relevant to the content of the page for which I might receive a commision. As an Amazon Associate I earn from qualifying purchases.
 
 [1]:    https://php.net
 [2]:    https://moodle.org

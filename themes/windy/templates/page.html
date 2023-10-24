@@ -29,7 +29,7 @@
 {% endblock %}
 
 {% block sidebar %}
-{% for link in LINKS %}
+{% for link in PAGE_SIDEBAR_LINKS %}
 {% if link['page'] == page.title %}
 <a href="{{ link['link'] }}" target="_blank">
   <img src="{{ link['image'] }}" class="w-44 mx-auto">
