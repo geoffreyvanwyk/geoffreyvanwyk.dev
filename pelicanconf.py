@@ -13,6 +13,10 @@ MENUITEMS = [("Home", "/")]
 DISPLAY_PAGES_ON_MENU = True
 DEFAULT_PAGINATION = 10
 
+from datetime import datetime
+
+YEAR = datetime.now().strftime("%Y")
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
