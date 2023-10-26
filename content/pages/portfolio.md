@@ -12,9 +12,21 @@ A website with sandbox instances of all the supported Moodle versions. The purpo
 
 The website and Moodle instances are created via Ansible using my custom roles for Moodle and PHP.
 
+[learningsandbox.online](https://learningsandbox.online)
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+
+[geoffreyvanwyk/learningsandbox.online](https://github.com/geoffreyvanwyk/learningsandbox.online)
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0"}
+
 ## Ansible Role for Moodle
 
 Deploys, installs, and upgrades Moodle on Ubuntu servers. Because the role I created for my previous employer was not open source, I created this role from scratch.
+
+[Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/moodle/)
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+
+[geoffreyvanwyk/ansible-role-moodle](https://github.com/geoffreyvanwyk/ansible-role-moodle)
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0"}
 
 ## Ansible Role for PHP
 
@@ -24,6 +36,12 @@ Originally, I was using a third-party Ansible role for installing PHP that only 
 
 I also limited the role to Ubuntu, because that is the Linux distribution I focus on
 
+[Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/php/)
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+
+[geoffreyvanwyk/ansible-role-php](https://github.com/geoffreyvanwyk/ansible-role-php)
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0"}
+
 ## Timepiece
 
 Timepiece is an alarm clock that runs on your desktop and includes a stopwatch and a countdown timer. All three timepieces can run simultaneously.
@@ -31,3 +49,6 @@ Timepiece is an alarm clock that runs on your desktop and includes a stopwatch a
 You can choose your own sound file to start playing at the set alarm time. The sound for the countdown timer is also customizable. The alarm clock has a snooze feature.
 
 Timepiece has more than 5000 downloads on Sourceforge.
+
+[SourceForge](https://sourceforge.net/projects/timepiece/)
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
