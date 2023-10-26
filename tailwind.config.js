@@ -4,6 +4,11 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/typography'), require('tailwindcss-hero-patterns')],
+  plugins: [
+    require('@tailwindcss/typography'),
+    require('tailwindcss-hero-patterns'),
+    require('tailwind-fontawesome')({
+      version: 6
+    })],
 }
 
