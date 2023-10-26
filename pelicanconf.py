@@ -20,6 +20,7 @@ STATIC_PATHS = ["images", "extra"]
 EXTRA_PATH_METADATA = {
     "extra/favicon.ico": {"path": "favicon.ico"},
     "extra/CNAME": {"path": "CNAME"},
+    "extra/logo.jpg": {"path": "logo.jpg"},
 }
 
 THEME = "windy"
