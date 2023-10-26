@@ -29,13 +29,13 @@
 {% endblock %}
 
 {% block sidebar %}
-{% if PAGE_SIDEBAR_LINKS | selectattr('page', 'equalto', page.title) | list | length > 0 %}
+{% if page.sidebar_links | length > 0 %}
 <div class="text-lg text-center font-semibold bg-white">Sponsored</div>
 {% endif %}
-{% for link in PAGE_SIDEBAR_LINKS if link['page'] == page.title %}
-<a href="{{ link['link'] }}" target="_blank">
-  <img src="{{ link['image'] }}" class="w-44 mx-auto">
-  <p class="text-center font-semibold"><span class="bg-white">{{ link.title }}</span></p>
+{% for sidebar_link in page.sidebar_links %}
+<a href="{{ sidebar_link.link }}" target="_blank">
+  <img src="{{ sidebar_link.image }}" class="w-44 mx-auto">
+  <p class="text-center font-semibold"><span class="bg-white">{{ sidebar_link.title }}</span></p>
 </a>
 {% endfor %}
 {% endblock %}
