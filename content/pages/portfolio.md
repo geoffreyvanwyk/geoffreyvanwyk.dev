@@ -1,5 +1,15 @@
 ---
-Title: Portfolio
+title: Portfolio
+sidebar_links:
+  - image: "https://m.media-amazon.com/images/I/61XUtQ7NTgL._SY466_.jpg"
+    link: "https://www.amazon.com/48-Laws-Power-Robert-Greene/dp/0140280197/ref=zg_bsms_g_books_sccl_30/141-8862560-3103627?psc=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=d24229f0b8203e53408eb20861d725ae&camp=1789&creative=9325"
+    title: "The 48 Laws of Power"
+  - image: "https://m.media-amazon.com/images/I/51D8IgtBaQL._SX342_SY445_.jpg"
+    link: "https://www.amazon.com/Total-Money-Makeover-Classic-Financial/dp/1595555277/ref=zg_bsms_g_books_sccl_37/141-8862560-3103627?psc=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=27f2ad50ecec699a02ed02ca3abeeb2e&camp=1789&creative=9325"
+    title: "The Total Money Makeover"
+  - image: "https://m.media-amazon.com/images/I/51Hfv2MfNGL._SY445_SX342_.jpg"
+    link: "https://www.amazon.com/Rich-Dad-Poor-Teach-Middle/dp/1612681131/ref=zg_bsar_g_books_sccl_28/141-8862560-3103627?psc=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=7a71501cc27b9dad5bd92240bde89a96&camp=1789&creative=9325"
+    title: "Rich Dad Poor Dad"
 ---
 
 A list of my current and past projects, which I own or have contributed to significantly.
