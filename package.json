@@ -1,0 +1,29 @@
+{
+  "name": "geoffreyvanwyk.dev",
+  "version": "1.0.0",
+  "description": "My blog built with Pelican and Tailwind CSS.",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "pelican": "pelican --listen --autoreload --theme-path themes/windy",
+    "tailwindcss-watch": "npx tailwindcss --input themes/windy/assets/main.css --output output/theme/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geoffreyvanwyk/geoffreyvanwyk.dev.git"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Geoffrey Bernardo van Wyk",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/geoffreyvanwyk/geoffreyvanwyk.dev/issues"
+  },
+  "homepage": "https://geoffreyvanwyk.dev",
+  "devDependencies": {
+    "tailwindcss": "^3.3.5",
+    "@tailwindcss/typography": "^0.5.0",
+    "tailwindcss-hero-patterns": "^0.0.1"
+  }
+}
