@@ -1,5 +1,14 @@
 ---
 title: About
+image:
+  src: images/dog-with-sunglasses.jpg
+  alt: Dog with sunglasses
+  creator:
+    name: Josh Rakower
+    link: https://unsplash.com/@joshrako?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash
+  publisher:
+    name: Unsplash
+    link: https://unsplash.com
 sidebar_links:
   - image: "https://m.media-amazon.com/images/I/31F7DqnXj2L._SX342_SY445_.jpg"
     link: "https://www.amazon.com/PHP-MySQL-Server-side-Web-Development/dp/1119149223/ref=sr_1_5?crid=2ES77QDQ2G2B4&amp;keywords=PHP&amp;qid=1698165441&amp;sprefix=php%252Caps%252C395&amp;sr=8-5&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=7ac40f22638cb5ff73b3ddfab712e9dc&camp=1789&creative=9325"
