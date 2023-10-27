@@ -23,7 +23,7 @@ EXTRA_PATH_METADATA = {
     "extra/logo.jpg": {"path": "logo.jpg"},
 }
 
-THEME = "windy"
+THEME = "./themes/windy"
 MENUITEMS = [("Home", "/")]
 DISPLAY_PAGES_ON_MENU = True
 DEFAULT_PAGINATION = 10

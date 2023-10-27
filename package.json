@@ -4,8 +4,8 @@
   "description": "My blog built with Pelican and Tailwind CSS.",
   "main": "tailwind.config.js",
   "scripts": {
-    "pelican": "pelican --listen --autoreload --theme-path themes/windy",
-    "tailwindcss-watch": "npx tailwindcss --input themes/windy/assets/main.css --output output/theme/main.css --watch",
+    "html": "invoke livereload",
+    "css": "npx tailwindcss --input themes/windy/assets/main.css --output output/theme/main.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
