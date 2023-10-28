@@ -45,20 +45,21 @@ A list of my current and past projects.
 
 The _Learning Sandbox Online_ is a website with default, out-of-the-box (for the
 most part) installations of all the officially supported versions of
-[Moodle][1]. The installations serve as playgrounds or sandboxes giving instant,
+[Moodle][m]{: target="_blank"}. The installations serve as playgrounds or sandboxes giving instant,
 hassle-free access to:
 
 * potential new users who want to see what Moodle looks like and what it offers;
 * new users who are learning it and need an instance for that, for example while taking a course;
 * existing users of customized versions who want to see how a certain feature normally works;
 * existing users who want to compare features between versions;
+* existing users who want to see what is available in the newest version;
 * etc.
 
 The sandboxes are supposed to automatically reset to fresh states every hour,
-but I must still [implement this feature][2].
+but I must still [implement this feature][itf]{: target="_blank"}.
 
 The website and Moodle instances are _automatically_ installed and updated with
-[Ansible][3] using my custom roles for Moodle and PHP.
+[Ansible][a]{: target="_blank"} using my custom roles for Moodle and PHP.
 
 There is already an official Moodle demo website, but I had a number of reasons
 for building this website:
@@ -72,50 +73,51 @@ for building this website:
   create their own branded demo website to showcase to their clients.
 
 [learningsandbox.online](https://learningsandbox.online)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
 
 [geoffreyvanwyk/learningsandbox.online](https://github.com/geoffreyvanwyk/learningsandbox.online)
-{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0"}
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" target="_blank"}
 
 ---
 
 ## Ansible Role for Moodle
 
-> Deploys, installs, and upgrades Moodle on Ubuntu servers.
+> Deploys, installs, and upgrades Moodle on Ubuntu servers
 
-At a previous employer, one of my tasks was to set up new Moodle instances for
+At a former employer, one of my tasks was to set up new Moodle instances for
 clients. I set out to document the steps for doing so. Because many of those
 steps were Bash shell commands, I realized I should create a script to
 automatically do the installations. While setting out to write the script, which
-would end up in many scripts that need to be combined, I thought I should rather
-use a framework that came with a prebaked proven method of organizing the
+would end up in many scripts that would need to be combined, I thought I should
+rather use a framework that came with a prebaked, proven method of organizing the
 scripts. The Bash framework that I chose did not work well at all and was a
 complete disaster.
 
 I had heard many times of things like Puppet, Chef and Ansible, but when I
 visited their websites I would always be stumped by the generalized language on
 their home pages that left me stumped as to whether they were relevant to my
-plan or even how to start. Luckily I found an [introduction video][4] on YouTube
-that got me started quickly with Ansible with which I created a role for Moodle.
+plan, or as to even how to start. Luckily I found an
+[introduction video][iv]{: target="_blank"} on YouTube that got me started
+quickly with Ansible with which I created a role for Moodle.
 
-Because the role I created for my previous employer was not open source, I had
+Because the role I created for my former employer was not open source, I had
 to recreate this role completely from scratch. The advantage sometimes of
 redoing something is doing it better.
 
 [Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/moodle/)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
 
 [geoffreyvanwyk/ansible-role-moodle](https://github.com/geoffreyvanwyk/ansible-role-moodle)
-{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0"}
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" target="_blank"}
 
 ---
 
 ## Ansible Role for PHP
 
-> Installs, configures, and extends PHP on Ubuntu.
+> Installs, configures, and extends PHP on Ubuntu
 
-This Ansible role installs, configures and extends the PHP programming language
-on Ubuntu servers. Multiple versions of PHP can be installed simultaneously on
+This Ansible role installs, configures and extends the [PHP][php] programming language
+on [Ubuntu][u] servers. Multiple versions of PHP can be installed simultaneously on
 the same server.
 
 Originally, I was using another third-party Ansible role for installing PHP that
@@ -129,16 +131,16 @@ I also limited the role to Ubuntu, because that is the Linux distribution I
 focus on.
 
 [Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/php/)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
 
 [geoffreyvanwyk/ansible-role-php](https://github.com/geoffreyvanwyk/ansible-role-php)
-{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0"}
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" target="_blank"}
 
 ---
 
 ## Timepiece
 
-> Alarm clock for your desktop.
+> Alarm clock for your desktop
 
 Timepiece is an alarm clock that runs on your desktop and includes a stopwatch
 and a countdown timer. All three timepieces can run simultaneously.
@@ -150,9 +152,11 @@ feature.
 Timepiece has more than 5000 downloads on Sourceforge.
 
 [SourceForge](https://sourceforge.net/projects/timepiece/)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
 
-[1]:  https://moodle.org/
-[2]:  https://github.com/geoffreyvanwyk/learningsandbox.online/issues/7
-[3]:  https://docs.ansible.com/ansible/
-[4]:  https://www.youtube.com/watch?v=uR1_hlHxvhc
+[a]: https://docs.ansible.com/ansible/
+[itf]: https://github.com/geoffreyvanwyk/learningsandbox.online/issues/7
+[iv]: https://www.youtube.com/watch?v=uR1_hlHxvhc
+[m]: https://moodle.org/
+[php]: https://php.net
+[u]: https://ubuntu.com
