@@ -10,76 +10,77 @@ image:
     name: Unsplash
     link: https://unsplash.com
 sidebar_links:
-  - image: "https://m.media-amazon.com/images/I/31F7DqnXj2L._SX342_SY445_.jpg"
-    link: "https://www.amazon.com/PHP-MySQL-Server-side-Web-Development/dp/1119149223/ref=sr_1_5?crid=2ES77QDQ2G2B4&amp;keywords=PHP&amp;qid=1698165441&amp;sprefix=php%252Caps%252C395&amp;sr=8-5&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=7ac40f22638cb5ff73b3ddfab712e9dc&camp=1789&creative=9325"
-    title: "PHP & MySQL: Server-side Web Development"
-  - image: "https://m.media-amazon.com/images/I/61Sa4KP+2dL._SY466_.jpg"
-    link: "https://www.amazon.com/Moodle-Learning-Course-Development-instructional/dp/180107903X/ref=sr_1_1?crid=2UUMOAPCSZG6G&amp;keywords=moodle&amp;qid=1698165650&amp;sprefix=mood%252Caps%252C386&amp;sr=8-1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=ac1935e49f41aece4933b098f5f29671&camp=1789&creative=9325"
-    title: "Moodle 4 E-Learning Course Development"
-  - image: "https://m.media-amazon.com/images/I/81xqW9qnF0L._SY466_.jpg"
-    link: "https://www.amazon.com/FORTRAN-SCIENTISTS-ENGINEERS-Stephen-Chapman/dp/0073385891/ref=sr_1_4?crid=12OU4QB598H4B&amp;keywords=fortran&amp;qid=1698160040&amp;sprefix=fortran%252Caps%252C552&amp;sr=8-4&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=631d6dc95c0e522a442eeabd3f752b4e&camp=1789&creative=9325"
-    title: "Fortran for Scientists and Engineers"
-  - image: "https://m.media-amazon.com/images/I/61svjW8j07L._SY466_.jpg"
-    link: "https://www.amazon.com/Excel-2019-Power-Programming-VBA/dp/1119514924/ref=sr_1_3?crid=2DAYXXMJ07CNM&amp;keywords=excel+power+programming+with+vba&amp;qid=1698164260&amp;sprefix=excel+power+programming+with+vba%252Caps%252C388&amp;sr=8-3&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=f1a72b3eda74acd8db59acc0b71f9701&camp=1789&creative=9325"
-    title: "Excel 2019 Power Programming with VBA"
-  - image: "https://m.media-amazon.com/images/I/917mjITnNoL._SY466_.jpg"
-    link: "https://www.amazon.com/Learning-Visual-Basic-Jesse-Liberty/dp/0596003862/ref=sr_1_2?crid=2H6C172SLZMPS&amp;keywords=visual+basic+.net&amp;qid=1698165000&amp;sprefix=visual+basic+.n%252Caps%252C453&amp;sr=8-2&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=54529950832f3f67cf2177f12b6dc27e&camp=1789&creative=9325"
-    title: "Learning Visual Basic .Net"
-  - image: "https://m.media-amazon.com/images/I/51CxdWNJ+OL._SY445_SX342_.jpg"
-    link: "https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362/ref=sr_1_1?crid=3JDQ258WUIZZQ&amp;keywords=think+python+how+to+think+like+a+computer+scientist&amp;qid=1698165277&amp;sprefix=think+python%252Caps%252C551&amp;sr=8-1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=9245829fde9a4887527648e9c7c34ee2&camp=1789&creative=9325"
-    title: "Think Python"
+  - image: "https://m.media-amazon.com/images/I/61ZOQcpcYvL._AC_SX466_.jpg"
+    link: "https://www.amazon.com/Das-Keyboard-Professional-Backlit-Mechanical/dp/B0BF62THHK/ref=sr_1_3?crid=3KUQHVQP5U32Q&amp;keywords=das%252Bkeyboard%252B6%252Bprofessional&amp;qid=1698446736&amp;sprefix=das%252Bkeyboard%252Caps%252C375&amp;sr=8-3&amp;th=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=c7b45cd1add0f1f7e05759f1217478ae&camp=1789&creative=9325"
+    title: "Das Keyboard 6 Professional Backlit Wired Mechanical Keyboard"
+  - image: "https://m.media-amazon.com/images/I/6172RKaHBJL._AC_SX466_.jpg"
+    link: "https://www.amazon.com/KINESIS-Advantage360-Professional-Ergonomic-Keyboard/dp/B0BCHMGZMD/ref=sr_1_3?crid=384TK6JDPT5O8&amp;keywords=kinesis%252Bkeyboard&amp;qid=1698446971&amp;sprefix=kinesis%252Bkeyboard%252Caps%252C366&amp;sr=8-3&amp;th=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=d7167ddb52bf6cd8652d3b90a7846b52&camp=1789&creative=9325"
+    title: "KINESIS Advantage360 Professional Split Ergonomic Keyboard"
+  - image: "https://m.media-amazon.com/images/I/61mGVhGTieL._AC_SX679_.jpg"
+    link: "https://www.amazon.com/Keychron-Keyboard-Programmable-Backlight-Mechanical/dp/B0CBWJ9SKX/ref=sr_1_3?crid=2JATXNMGU4SWV&amp;keywords=keychron%252Bkeyboard&amp;qid=1698447119&amp;sprefix=keychronkeyboard%252Caps%252C366&amp;sr=8-3&amp;th=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=8e980dc6136b07e52a1fc875c6ce3a6a&camp=1789&creative=9325"
+    title: "Keychron C3 Pro QMK/VIA Custom Gaming Keyboard"
+  - image: "https://m.media-amazon.com/images/I/71QIg+l2wRL._AC_SX466_.jpg"
+    link: "https://www.amazon.com/Fujitsu-Keyboard-Professional-Charcoal-CG01000-297201/dp/B083NFF9M1/ref=sr_1_3?crid=2NBBZQBKOU0XR&amp;keywords=happy%252Bhacking%252Bkeyboard&amp;qid=1698447310&amp;sprefix=happy%252Bhackingkeyboard%252Caps%252C357&amp;sr=8-3&amp;th=1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=d77c7f92f8d907fdfbc9b75acbb9abfd&camp=1789&creative=9325"
+    title: "Happy Hacking Keyboard"
 ---
 
 [TOC]
 
+---
+
 ## About Me
 
-I am a professional computer programmer who has worked mostly with [PHP][1], and over the last number of years with [Moodle][2]. I work remotely from a small town in the [Northern Cape][3] of South Africa.
+I am a computer programmer working remotely from a small town in the
+[Northern Cape][nc] province of South Africa. My primary programming language has
+been [PHP][php]. For the last number of years I have been working mostly on
+[Moodle][m], deploying it, modifying it, creating custom plugins for our clients,
+modifying existing plugins, site administration and troubleshooting. Even though
+I am not with my former employer anymore where I worked on Moodle, I continue to
+work on it in terms of [Ansible][a] roles for setting it up, software services,
+working on plugins and participating in the community chat rooms and forums,
+taking courses on [Moodle Academy][ma] to stay up-to-date.
 
-My first introduction to computer programming was in the form of [Fortran][4] in a first-year second-semester module at the University of Stellenbosh in the 1990s. Computer programming was only one half of the module; the other half was dedicated to [mass balances][5] in chemical engineering. During class I could not follow the lecturer, partly because he was not speaking loudly or clearly enough and partly because this was a completely new concept for me. If I missed something he said earlier in the lecture, what he said later was a mystery. There was no prescribed book, and the booklet that accompanied the course was not helpful at all. Eventually I realized there must be a book about Fortran in the library of the engineering faculty. I found one! From that point onwards the course was smooth sailing.
+Besides the secondary programming languages that are obligatory for a web
+developer (JavaScript, HTML, CSS, Bash, SQL), I also enjoy learning other
+languages like Racket, Clojure, Haskell, Elixir, etc.
 
-Years later I was working as a chemical engineering technician. One day while driving home after work one of my friends showed me a copy of an article that described how the next largest prime number had been calculated recently. Out of interest I wanted to find a way to do the calculations myself. The only tool I had was Microsoft Excel spreadsheets and it seemed to me that it was perfectly capable of performing the task. With my first attempt, I would enter a formula in the top cell of a column then use the fill tool to drag the calculation down the column until I found a prime number; then repeat the step in the next column to find the next prime number, and so forth. Yet I knew there must be an automatic way. I looked through the Excel help files without success, and eventually came upon a part of Excel with a big white editor that would highlight some letters that I would type in it. But I had no idea what it was for. I set out to the company library and found a book on [Visual Basic for Applications][6] and so started my second foray into computer programming. The big white editor was for Visual Basic. I eventually wrote a little function that would populate the cells on a spreadsheet with the sequence of prime numbers in dramatic fashion. My next program with VBA was for creating an Excel spreadsheet formula for calculating the molecular mass of a molecule.
+I had fun writing web scrapers in [Python][py] and have decided to make it my primary
+language moving forward because, besides the fact that I like the language
+philosophy and syntax, there are many libraries available for it for all types
+of programming.
 
-One of my colleagues later gave me a complete video course on _Visual Basic 6_ in CD format which I enjoyed tremendously. With VB6 I built a unit conversion app, but never completed it. Later, with [Visual Basic .Net][7], I built [Timepiece][8], an alarm clock, stopwatch and countdown timer for your Windows desktop, which I am proud of. I published it on SourceForge and it has been downloaded more than 5000 times. I once saw that somebody made a video review of it, but I cannot find it anymore.
+When I am not programming, I play the saxophone, play [chess][c] online, or learn
+other human languages like Latin on [Duolingo][duo] and from books.
 
-The blogs of [Joel Spolsky][9] and [Jeff Atwood][10] cemented my interest in computer science. Jeff Atwood's account of how he first worked on StackOverflow alone, but then marshalled his previous colleagues to join him, inspired me to think about switching careers.
-
-Seeking to learn more about computer science, I read the book _Think like a Computer Scientist_. It also taught me the [Python][18] programming language. Later editions of the book were retitled to [Think Python][11]. Learning that YouTube ran on Python, I wanted to use Python to build an eminently useful website like StackOverflow.
-
-However, I was sidetracked into learning PHP when a Christian brother who built [Word of the Hour][12] asked me to write a script for importing articles. PHP became my main focus and I decided that it was time to make computer programming my full time career.
-
-After a failed attempt at starting an online business for advertising cars, I eventually landed my first job as a software developer at an online fashion store called _Spree_.
+---
 
 ## About this Website
 
 On this website I:
 
-* Write blog posts about my adventures in computer programming as well as my other interests like chess and playing the saxophone.
+* Write blog posts about my adventures in computer programming as well as my
+  other interests like chess and playing the saxophone.
 * Keep a portfolio of my projects.
 * Link to my accounts on other services like GitHub.
 
-As a reward for maintaining the website, in the right-hand sidebar of page, I add links to products or services that are relevant to the content of the page for which I might receive a commision. As an [Amazon Associate][13] I earn from qualifying purchases.
+As a compensation for maintaining the website, in the right-hand sidebar of
+page, I add links to popular products or books on Amazon that are of interest to
+me and my readers. As an [Amazon Associate][aa] I earn from qualifying purchases.
 
-This website is built using the [Pelican][14] static site generator, styled using [Tailwind CSS][15], deployed using [GitHub Actions][16] and hosted for free on [GitHub Pages][17].
+This website is built using the [Pelican][pel] static site generator, styled
+using [Tailwind CSS][tw], deployed using [GitHub Actions][ga] and hosted for
+free on [GitHub Pages][gp].
 
-[1]:    https://php.net/
-[2]:    https://moodle.org/
-[3]:    https://en.wikipedia.org/wiki/Northern_Cape
-[4]:    https://fortran-lang.org/
-[5]:    https://en.wikipedia.org/wiki/Mass_balance
-[6]:    https://learn.microsoft.com/en-us/office/vba/api/overview/
-[7]:    https://sourceforge.net/projects/timepiece/
-[8]:    https://learn.microsoft.com/en-us/dotnet/visual-basic/
-[9]:    https://joelonsoftware.com/
-[10]:   https://blog.codinghorror.com/
-[11]:   https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362/ref=sr_1_1?crid=1DSQY95MZ95AP&amp;keywords=think+python+3rd+edition&amp;qid=1698147094&amp;sprefix=think+python+%252Caps%252C348&amp;sr=8-1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=ead7d652290feaa0567a068e957cbb0a&camp=1789&creative=9325
-[12]:   https://wordofthehour.net/
-[13]:   https://affiliate-program.amazon.com/
-[14]:   https://getpelican.com/
-[15]:   https://tailwindcss.com/
-[16]:   https://github.com/features/actions/
-[17]:   https://pages.github.com/
-[18]:   https://python.org/
-
-*[VB6]: Visual Basic 6
-*[CD]:  Compact Disc
+[a]: https://docs.ansible.com/ansible/
+[aa]: https://affiliate-program.amazon.com/
+[c]: https://chess.com/
+[duo]: https://duolingo.com/
+[ga]: https://github.com/features/actions/
+[gp]: https://pages.github.com/
+[m]: https://moodle.org/
+[ma]: https://moodle.academy/
+[nc]: https://en.wikipedia.org/wiki/Northern_Cape/
+[pel]: https://getpelican.com/
+[php]: https://php.net/
+[py]: https://python.org/
+[tw]: https://tailwindcss.com/

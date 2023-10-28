@@ -60,7 +60,8 @@ but I must still [implement this feature][2].
 The website and Moodle instances are _automatically_ installed and updated with
 [Ansible][3] using my custom roles for Moodle and PHP.
 
-There is already an official Moodle demo website, but I had a number of reasons for building this website:
+There is already an official Moodle demo website, but I had a number of reasons
+for building this website:
 
 * I wanted to see how I would implement it myself.
 * I wanted to use my custom Ansible role for Moodle in a real-world project.
@@ -113,11 +114,19 @@ redoing something is doing it better.
 
 > Installs, configures, and extends PHP on Ubuntu.
 
-This Ansible role installs, configures and extends the PHP programming language on Ubuntu servers. Multiple versions of PHP can be installed simultaneously on the same server.
+This Ansible role installs, configures and extends the PHP programming language
+on Ubuntu servers. Multiple versions of PHP can be installed simultaneously on
+the same server.
 
-Originally, I was using another third-party Ansible role for installing PHP that only allows a single PHP version at a time. For occasions on which multiple websites requiring different PHP versions must be installed on the same server (for example _Learning Sandbox Online_ where PHP 7.4, 8.0, and 8.1 are required simultaneously), that role was not appropriate.  That is why I had to create my own role.
+Originally, I was using another third-party Ansible role for installing PHP that
+only allows a single PHP version at a time. For occasions on which multiple
+websites requiring different PHP versions must be installed on the same server
+(for example _Learning Sandbox Online_ where PHP 7.4, 8.0, and 8.1 are required
+simultaneously), that role was not appropriate.  That is why I had to create my
+own role.
 
-I also limited the role to Ubuntu, because that is the Linux distribution I focus on.
+I also limited the role to Ubuntu, because that is the Linux distribution I
+focus on.
 
 [Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/php/)
 {: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0"}
@@ -131,9 +140,12 @@ I also limited the role to Ubuntu, because that is the Linux distribution I focu
 
 > Alarm clock for your desktop.
 
-Timepiece is an alarm clock that runs on your desktop and includes a stopwatch and a countdown timer. All three timepieces can run simultaneously.
+Timepiece is an alarm clock that runs on your desktop and includes a stopwatch
+and a countdown timer. All three timepieces can run simultaneously.
 
-You can choose your own sound file to start playing at the set alarm time. The sound for the countdown timer is also customizable. The alarm clock has a snooze feature.
+You can choose your own sound file to start playing at the set alarm time. The
+sound for the countdown timer is also customizable. The alarm clock has a snooze
+feature.
 
 Timepiece has more than 5000 downloads on Sourceforge.
 
