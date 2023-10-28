@@ -73,10 +73,10 @@ for building this website:
   create their own branded demo website to showcase to their clients.
 
 [learningsandbox.online](https://learningsandbox.online)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" }
 
 [geoffreyvanwyk/learningsandbox.online](https://github.com/geoffreyvanwyk/learningsandbox.online)
-{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" target="_blank"}
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" }
 
 ---
 
@@ -105,10 +105,10 @@ to recreate this role completely from scratch. The advantage sometimes of
 redoing something is doing it better.
 
 [Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/moodle/)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" }
 
 [geoffreyvanwyk/ansible-role-moodle](https://github.com/geoffreyvanwyk/ansible-role-moodle)
-{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" target="_blank"}
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" }
 
 ---
 
@@ -131,10 +131,10 @@ I also limited the role to Ubuntu, because that is the Linux distribution I
 focus on.
 
 [Ansible Galaxy](https://galaxy.ansible.com/ui/standalone/roles/geoffreyvanwyk/php/)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" }
 
 [geoffreyvanwyk/ansible-role-php](https://github.com/geoffreyvanwyk/ansible-role-php)
-{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" target="_blank"}
+{: .icon-before .icon-brands .icon-github .icon-space-md style="margin-top: 0" }
 
 ---
 
@@ -152,7 +152,7 @@ feature.
 Timepiece has more than 5000 downloads on Sourceforge.
 
 [SourceForge](https://sourceforge.net/projects/timepiece/)
-{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" target="_blank"}
+{: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" }
 
 [a]: https://docs.ansible.com/ansible/
 [itf]: https://github.com/geoffreyvanwyk/learningsandbox.online/issues/7
