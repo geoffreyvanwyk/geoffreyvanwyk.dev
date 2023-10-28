@@ -149,7 +149,9 @@ You can choose your own sound file to start playing at the set alarm time. The
 sound for the countdown timer is also customizable. The alarm clock has a snooze
 feature.
 
-Timepiece has more than 5000 downloads on Sourceforge.
+Timepiece has more than 5000 downloads on Sourceforge. I once saw that somebody
+created a video review of it. I cannot find it anymore, but it made me extremely
+proud.
 
 [SourceForge](https://sourceforge.net/projects/timepiece/)
 {: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" }
