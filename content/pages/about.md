@@ -31,26 +31,28 @@ sidebar_links:
 ## About Me
 
 I am a computer programmer working remotely from a small town in the
-[Northern Cape][nc] province of South Africa. My primary programming language has
-been [PHP][php]. For the last number of years I have been working mostly on
-[Moodle][m], deploying it, modifying it, creating custom plugins for our clients,
-modifying existing plugins, site administration and troubleshooting. Even though
-I am not with my former employer anymore where I worked on Moodle, I continue to
-work on it in terms of [Ansible][a] roles for setting it up, software services,
-working on plugins and participating in the community chat rooms and forums,
-taking courses on [Moodle Academy][ma] to stay up-to-date.
+[Northern Cape][nc]{: target=blank } province of South Africa.
+
+My primary programming language has been [PHP][php]{: target=blank }. For the last number of
+years I have been working mostly on [Moodle][m]{: target=blank }, deploying it, modifying it,
+creating custom plugins for our clients, modifying existing plugins, site
+administration and troubleshooting. Even though I am not with my former employer
+anymore where I worked on Moodle, I continue to work on it in terms of
+[Ansible][a]{: target=blank } roles for setting it up, software services, working on plugins and
+participating in the community chat rooms and forums, taking courses on
+[Moodle Academy][ma]{: target=blank } to stay up-to-date.
 
 Besides the secondary programming languages that are obligatory for a web
 developer (JavaScript, HTML, CSS, Bash, SQL), I also enjoy learning other
 languages like Racket, Clojure, Haskell, Elixir, etc.
 
-I had fun writing web scrapers in [Python][py] and have decided to make it my primary
-language moving forward because, besides the fact that I like the language
-philosophy and syntax, there are many libraries available for it for all types
-of programming.
+I had fun writing web scrapers in [Python][py]{: target=blank } and have decided to make it my
+primary language moving forward because, besides the fact that I like the
+language philosophy and syntax, there are many libraries available for it for
+all types of programming.
 
-When I am not programming, I play the saxophone, play [chess][c] online, or learn
-other human languages like Latin on [Duolingo][duo] and from books.
+When I am not programming, I play the saxophone, play [chess][c]{: target=blank } online, or
+learn other human languages like Latin on [Duolingo][duo]{: target=blank } and from books.
 
 ---
 
@@ -65,11 +67,11 @@ On this website I:
 
 As a compensation for maintaining the website, in the right-hand sidebar of
 page, I add links to popular products or books on Amazon that are of interest to
-me and my readers. As an [Amazon Associate][aa] I earn from qualifying purchases.
+me and my readers. As an [Amazon Associate][aa]{: target=blank } I earn from qualifying purchases.
 
-This website is built using the [Pelican][pel] static site generator, styled
-using [Tailwind CSS][tw], deployed using [GitHub Actions][ga] and hosted for
-free on [GitHub Pages][gp].
+This website is built using the [Pelican][pel]{: target=blank } static site generator, styled
+using [Tailwind CSS][tw]{: target=blank }, deployed using [GitHub Actions][ga]{: target=blank } and hosted for
+free on [GitHub Pages][gp]{: target=blank }.
 
 [a]: https://docs.ansible.com/ansible/
 [aa]: https://affiliate-program.amazon.com/
