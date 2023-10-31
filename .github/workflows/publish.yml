@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
 jobs:
   deploy:
-    uses: "geoffrevanwyk/geoffreyvanwyk.dev/.github/workflows/pelican.yml@master"
+    uses: "geoffreyvanwyk/geoffreyvanwyk.dev/.github/workflows/pelican.yml@master"
     permissions:
       contents: "read"
       pages: "write"
