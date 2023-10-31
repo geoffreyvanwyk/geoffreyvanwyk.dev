@@ -3,14 +3,14 @@ title: How I got started
 summary: From chemical engineering to computer programming
 category: stories
 tags:
-  - computer programming
-  - getting started
+  - computer-programming
+  - getting-started
   - fortran
   - php
   - python
   - moodle
-  - visual basic for applications
-  - chemical engineering
+  - visual-basic-for-applications
+  - chemical-engineering
 date: 2023-10-28
 image:
   src: images/puppy-on-beach-with-ball.jpg
