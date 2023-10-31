@@ -22,46 +22,57 @@
 {% endblock %}
 
 {% block content %}
-<header class="prose mx-auto bg-white px-4">
-  <h1 class="entry-title">
+<header class="prose mx-auto bg-white">
+  {% if article.image %}
+  {% include "partials/article_image.html" %}
+  {% endif %}
+  <h1 class="entry-title capitalize px-4 py-4">
     {{ article.title }}
   </h1>
   {% import 'translations.html' as translations with context %}
   {{ translations.translations_for(article) }}
 </header>
 <footer class="post-info prose mx-auto px-4 bg-white">
-  <time class="published" datetime="{{ article.date.isoformat() }}">
+  <time class="published uppercase text-xs" datetime="{{ article.date.isoformat() }}">
     {{ article.locale_date }}
   </time>
   {% if article.modified %}
-  <time class="modified" datetime="{{ article.modified.isoformat() }}">
+  <time class="modified uppercase text-xs" datetime="{{ article.modified.isoformat() }}">
     {{ article.locale_modified }}
   </time>
   {% endif %}
-  {% if article.authors %}
-  <address class="vcard author">
-    By {% for author in article.authors %}
-    <a class="url fn" href="{{ SITEURL }}/{{ author.url }}">{{ author }}</a>
-    {% endfor %}
-  </address>
-  {% endif %}
   {% if article.category %}
-  <div class="category">
+  <div class="category uppercase text-xs">
     Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
   </div>
   {% endif %}
   {% if article.tags %}
-  <div class="tags">
-    Tags:
+  <div class="tags flex flex-wrap gap-2">
+    <span class="uppercase text-sm">Tags:</span>
     {% for tag in article.tags %}
-    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+    <a href="{{ SITEURL }}/{{ tag.url }}"
+      class="no-underline px-2 py-1 text-xs font-medium text-gray-800 bg-gray-100 border border-gray-100 rounded-full">
+      {{ tag }}
+    </a>
     {% endfor %}
   </div>
   {% endif %}
 </footer><!-- /.post-info -->
-<article class="prose prose-md prose-p:font-serif prose-a:font-sans mx-auto bg-white shadow-lg">
+<article class="prose prose-md mx-auto bg-white shadow-lg">
   <div class="p-4">
     {{ article.content }}
   </div>
 </article>
+{% endblock %}
+
+{% block sidebar %}
+{% if article.sidebar_links | length > 0 %}
+<div class="text-lg text-center font-semibold bg-white">Sponsored</div>
+{% endif %}
+{% for sidebar_link in article.sidebar_links %}
+<a href="{{ sidebar_link.link }}" target="_blank">
+  <img src="{{ sidebar_link.image }}" class="w-44 mx-auto">
+  <p class="text-center font-semibold"><span class="bg-white">{{ sidebar_link.title }}</span></p>
+</a>
+{% endfor %}
 {% endblock %}
