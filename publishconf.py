@@ -10,6 +10,7 @@ from pelicanconf import *
 # If your site is available via HTTPS, make sure SITEURL begins with https://
 SITEURL = "https://geoffreyvanwyk.dev"
 RELATIVE_URLS = False
+GITHUB_URL = "https://github.com/geoffreyvanwyk"
 
 FEED_ALL_ATOM = "feeds/all.atom.xml"
 CATEGORY_FEED_ATOM = "feeds/{slug}.atom.xml"

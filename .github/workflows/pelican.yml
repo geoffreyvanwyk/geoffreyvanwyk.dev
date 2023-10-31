@@ -40,10 +40,6 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Configure GitHub Pages
-        id: pages
-        uses: actions/configure-pages@v3
-
       - name: Install requirements
         run: pip install ${{ inputs.requirements }}
 
@@ -51,7 +47,7 @@ jobs:
         run: |
           pelican \
             --settings "${{ inputs.settings }}" \
-            --extra-settings SITEURL='"${{ steps.pages.outputs.base_url }}"' \
+            --extra-settings SITEURL='https://geoffreyvanwyk.dev' \
             --output "${{ inputs.output-path }}"
 
       - name: Setup Node.js
