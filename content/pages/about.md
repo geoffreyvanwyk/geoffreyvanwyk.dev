@@ -75,7 +75,7 @@ free on [GitHub Pages][gp]{: target=blank }.
 
 [a]: https://docs.ansible.com/ansible/
 [aa]: https://affiliate-program.amazon.com/
-[c]: https://chess.com/
+[c]: https://chess.com/?ref_id=12555880
 [duo]: https://duolingo.com/
 [ga]: https://github.com/features/actions/
 [gp]: https://pages.github.com/
