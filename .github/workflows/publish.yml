@@ -1,15 +1,51 @@
 name: Publish
 on:
   push:
-    branches: ["master"]
+    branches:
+      - master
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  deploy:
-    uses: "geoffreyvanwyk/geoffreyvanwyk.dev/.github/workflows/pelican.yml@master"
-    permissions:
-      contents: "read"
-      pages: "write"
-      id-token: "write"
-    with:
-      settings: "publishconf.py"
-      requirements: "-r requirements.txt"
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install requirements
+        run: pip install -r requirements.txt
+
+      - name: Build Pelican site
+        run: |
+          pelican \
+            --settings publishconf.py \
+            --output output
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v2.1.2
+        with:
+          node-version: 20
+
+      - name: Install Node.js dependencies
+        run: npm install
+
+      - name: Build Tailwind CSS
+        run: npx tailwindcss --input themes/windy/assets/main.css --output output/theme/main.css
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          external_repository: geoffreyvanwyk/geoffreyvanwyk.github.io
+          publish_branch: master
+          publish_dir: ./output
