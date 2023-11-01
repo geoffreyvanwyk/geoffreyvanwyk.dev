@@ -98,7 +98,12 @@ became my main focus and I decided that it was time to make computer programming
 my full time career.
 
 After a failed attempt at starting an online business for advertising cars, I
-eventually landed my first job as a software developer at an online fashion
+started freelancing. For one of my clients, I built a web scraper for collecting
+all courses taught in all Australian universities. I used Python with Selenium,
+but, only after delivering the data to the client, I discovered [Scrapy][scr] that
+worked much faster.
+
+Eventually landed my first job as a software developer at an online fashion
 store called _Spree_ which is now [Superbalist][superb].
 
 *[VB6]: Visual Basic 6
@@ -109,6 +114,7 @@ store called _Spree_ which is now [Superbalist][superb].
 [joel]: https://joelonsoftware.com/
 [mb]: https://en.wikipedia.org/wiki/Mass_balance
 [py]: https://python.org/
+[scr]: https://scrapy.org/
 [superb]: https://superbalist.com/
 [time]: https://sourceforge.net/projects/timepiece/
 [tp]: https://www.amazon.com/Think-Python-Like-Computer-Scientist/dp/1491939362/ref=sr_1_1?crid=1DSQY95MZ95AP&amp;keywords=think+python+3rd+edition&amp;qid=1698147094&amp;sprefix=think+python+%252Caps%252C348&amp;sr=8-1&_encoding=UTF8&tag=geoffreyvanwy-20&linkCode=ur2&linkId=ead7d652290feaa0567a068e957cbb0a&camp=1789&creative=9325
