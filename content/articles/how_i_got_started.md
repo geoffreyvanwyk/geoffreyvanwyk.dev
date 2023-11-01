@@ -11,9 +11,9 @@ tags:
   - moodle
   - visual-basic-for-applications
   - chemical-engineering
-date: 2023-11-01
-image: images/puppy-on-beach-with-ball.jpg
-cover_image:
+date: 2023-10-28
+modified: 2023-11-01
+image:
   src: images/puppy-on-beach-with-ball.jpg
   alt: Puppy on beach with ball
   creator:
