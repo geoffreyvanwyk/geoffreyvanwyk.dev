@@ -33,11 +33,12 @@
   {{ translations.translations_for(article) }}
 </header>
 <footer class="post-info prose mx-auto px-4 bg-white">
-  <time class="published uppercase text-xs" datetime="{{ article.date.isoformat() }}">
+  <time class="published uppercase text-xs" datetime="{{ article.date.isoformat() }}" title="Published">
     {{ article.locale_date }}
   </time>
   {% if article.modified %}
-  <time class="modified uppercase text-xs" datetime="{{ article.modified.isoformat() }}">
+  &#8226;
+  <time class="modified uppercase text-xs" datetime="{{ article.modified.isoformat() }}" title="Updated">
     {{ article.locale_modified }}
   </time>
   {% endif %}
