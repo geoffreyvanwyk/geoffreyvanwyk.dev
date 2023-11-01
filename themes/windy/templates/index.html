@@ -2,13 +2,14 @@
 
 {% block content %}
 <section id="content">
-  <ol id="post-list flex justify-start items-start">
+  <ol id="post-list">
     {% for article in articles_page.object_list %}
     <li>
       <article class="hentry prose prose-sm bg-white shadow-lg pb-2">
         {% if article.image %}
         {% include "partials/article_image.html" %}
         {% endif %}
+
         <div class="px-4">
           <header>
             <h2 class="entry-title capitalize mt-2 mb-2"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
@@ -30,3 +31,23 @@
   {% endif %}
 </section><!-- /#content -->
 {% endblock content %}
+
+{% block sidebar %}
+<figure class="prose md:flex bg-gray-700 rounded-xl p-8 md:p-0">
+  <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+    <blockquote>
+      <p class="text-lg font-medium text-white italic">
+        The three chief virtues of a programmer are: Laziness, Impatience and Hubris.
+      </p>
+    </blockquote>
+    <figcaption class="font-medium">
+      <div class="text-gray-100">
+        Larry Wall
+      </div>
+      <div class="text-gray-400">
+        Creator of Perl
+      </div>
+    </figcaption>
+  </div>
+</figure>
+{% endblock %}
