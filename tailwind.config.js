@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['./output/**/*.html', './theme/windy/assets/**/*.css'],
+  content: ['./themes/windy/templates/**/*.html', './theme/windy/assets/**/*.css'],
   theme: {
     extend: {},
   },
