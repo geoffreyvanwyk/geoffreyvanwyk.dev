@@ -12,7 +12,8 @@ tags:
   - visual-basic-for-applications
   - chemical-engineering
 date: 2023-11-01
-image:
+image: images/puppy-on-beach-with-ball.jpg
+cover_image:
   src: images/puppy-on-beach-with-ball.jpg
   alt: Puppy on beach with ball
   creator:
