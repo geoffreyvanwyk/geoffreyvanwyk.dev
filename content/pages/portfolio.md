@@ -55,8 +55,7 @@ hassle-free access to:
 * existing users who want to see what is available in the newest version;
 * etc.
 
-The sandboxes are supposed to automatically reset to fresh states every hour,
-but I must still [implement this feature][itf]{: target="_blank"}.
+The sandboxes automatically reset to fresh states every hour.
 
 The website and Moodle instances are _automatically_ installed and updated with
 [Ansible][a]{: target="_blank"} using my custom roles for Moodle and PHP.
@@ -157,7 +156,6 @@ proud.
 {: .icon-before .icon-solid .icon-link .icon-space-md .prose-p:text-red-600 style="margin-bottom: 0" }
 
 [a]: https://docs.ansible.com/ansible/
-[itf]: https://github.com/geoffreyvanwyk/learningsandbox.online/issues/7
 [iv]: https://www.youtube.com/watch?v=uR1_hlHxvhc
 [m]: https://moodle.org/
 [php]: https://php.net
